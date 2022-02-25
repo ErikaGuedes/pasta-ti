@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+ 
+body,* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(123, 158, 158);
+    position: fixed;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    
+    padding: 19px;
+    display: block;
+    transition: .3s;
+}
+
+ ul li a:hover {
+     background-color: rgb(104, 143, 143);
+     padding: 19px;
+    }
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-color: #3c8b91;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    }
+.box {
+    height: 400px; 
+    width: 400px; 
+    background-color:rgb(22, 15, 2) ;
+    text-align: center;
+    padding-top: 175px;
+
+
+}
+     
+ .img-1 {
+     background-image: url(../IMG/abstrata\ 3.jpg);
+     background-size: cover;
+  
+
+}
+    
+.img-2{
+    background-image: url(../IMG/classica\ 2.jpg);
+    background-size: cover;
+
+}
+
+.img-3{
+    background-image: url(../IMG/paisagem\ natural.jpg);
+    background-size: cover;
+
+}
+h2{
+    background-color: rgba(43, 82, 100, 0.562);
+}
+section div a {
+    background-color: rgba(43, 82, 100, 0.575);
+    display: block;
+    text-decoration: none;
+
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(162, 173, 173);
+    text-align: center;
+    font-size: 30px;
+    color: burlywood;
+}
